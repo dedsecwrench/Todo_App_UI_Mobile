@@ -1,0 +1,472 @@
+/* --------------------------- WEB RESPONSIVE -------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+body{
+    padding:15px;
+}
+
+.container_1{
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    width:60%;
+    height:fit-content;
+    position:relative;
+    top:130px;
+    flex-wrap: wrap;
+}
+
+.top_1{
+    font-size: 50px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.top_2{
+    font-size: 30px;
+    text-align: right;
+    font-family: sans-serif;
+    padding: 20px;
+    font-weight:lighter;
+    color: rgb(113, 113, 113);
+}
+
+.btn{
+    height:42px;
+    width:42px;
+    border-radius: 50%;
+    position:relative;
+    bottom:3px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(242, 69, 69);
+    border :none;
+}
+.btn:hover{
+    color:white;
+    background-color: rgb(242, 69, 69);
+}
+
+.container_2{
+    border: 1px solid yellowgreens;
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+    width:65%;
+    height:fit-content;
+    position:relative;
+    top:130px;
+    flex-wrap: wrap;
+}
+
+.cards{
+    height:360px;
+    width:240px;
+    border:1px solid rgb(242, 69, 69);
+    border-radius: 10px;
+    text-align: center;
+    padding:30px;
+    box-shadow: 10px 10px 10px rgb(216, 215, 215);
+}
+
+h2{
+    font-weight: lighter;
+    color:rgb(242, 69, 69);
+}
+
+hr.hr_style{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0));
+}
+
+.cardText{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    font-size: 25px;
+    position:relative;
+    top:40px;
+    color:rgb(244, 55, 55);
+}
+
+.form{
+    font-size:22px;
+    position: relative;
+    top:60px;
+}
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+}
+
+strong{
+    color:rgb(38, 38, 38);
+}  
+
+.addCard{
+    height:240px;
+    width:450px;
+    border:1px solid rgb(242, 69, 69);
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    position: fixed;
+    left: 50%;
+    top:32%;
+    transform: translate(-50%, 0);
+    z-index:200;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(216, 215, 215);
+}
+#blur{
+    filter:blur(7px);
+}
+
+.form2{
+    font-size:22px;
+    padding:10px;
+}
+
+.add_head{
+    font-size: 25px;
+    color:rgb(242, 69, 69);
+    position: relative;
+    top:15px;
+}
+#addtext{
+    width:330px;
+    border:1px solid rgb(242, 69, 69);
+    border-radius: 5px;
+    height:45px;
+    box-shadow: 3px 3px 5px rgb(216, 215, 215);
+}
+
+.add_btn{
+    border:none;
+    background-color: rgb(242, 69, 69);
+    color:white;
+    height:45px;
+    width:100px;
+    border-radius: 25px;
+    font-size: 24px;
+    position: relative;
+    bottom:10px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width:50%;
+    padding:20px;
+    gap: 20px;
+    font-size: 50px;
+}
+  
+h1:before,h1:after {
+    content: "";
+    flex:1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+    width:50%;
+}
+
+.top_back{
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    font-weight:lighter;
+    color: rgb(113, 113, 113);
+}
+
+.center_card{
+    height:400px;
+    width:420px;
+    border:1px solid rgb(242, 69, 69);
+    border-radius: 10px;
+    text-align: center;
+    margin:auto;
+    padding:30px;
+    box-shadow: 10px 10px 10px rgb(216, 215, 215);
+}
+
+.btn_2{
+    height:42px;
+    width:42px;
+    border-radius: 50%;
+    position:relative;                 
+    left:170px;                  
+    top:110px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(242, 69, 69);
+    border :none;
+}
+.btn:hover{
+    color:white;
+    background-color: rgb(242, 69, 69);
+}
+
+.back_btn{
+    height:42px;
+    width:42px;
+    border-radius: 50%;
+    position:relative;
+    bottom:3px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(242, 69, 69);
+    border :none;
+}
+.back_btn:hover{
+    color:white;
+    background-color: rgb(242, 69, 69);
+}
+
+
+/* ------------------------ MOBILE RESPONSIVE -------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------- index.html ------------------------------------ */
+
+
+@media only screen and (min-width: 200px) and  (max-width: 800px) {
+  body{
+      padding: 5px;
+      margin:0;
+  }
+  .container_1{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    height:fit-content;
+    top: 40px;
+    
+}
+ .top_1{
+    font-size: 50px;
+    font-family: sans-serif;
+  }
+  .top_2{
+    position: relative;
+    right:20px;
+    font-size:2px;
+    font-family: sans-serif;
+    width: 10px;
+    height: 25px;
+  }
+
+  .btn{
+    height:37px;
+    width:37px;
+    border-radius: 50%;
+    position:relative;
+    top:2px;
+    font-size: 15px;
+    text-align: center;
+    color:white;
+    background-color: rgb(242, 69, 69);
+    border :none;
+}
+
+  .hide{
+    visibility: hidden;
+  }
+
+  .container_2{
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+    width:90%;
+    height:fit-content;
+    position:relative;
+    top:70px;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+
+.cards{
+    height:60px;
+    width:100%;
+    border:1px solid rgb(250, 195, 195);
+    border-radius: 10px;
+    text-align: left;
+    padding-bottom: 30px;
+    box-shadow: 7px 7px 5px rgb(216, 215, 215);
+    cursor: pointer;
+}
+
+.cardText{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    font-size: 25px;
+    color:rgb(244, 55, 55);
+    visibility: collapse;
+}
+
+hr.hr_style{
+    visibility: collapse;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0));
+}
+
+.form{
+    visibility: collapse;
+}
+.resize{
+    position: relative;
+    bottom: 15px;
+   color: rgb(113, 113, 113);
+}
+
+
+/* ------------------------- addList.html / addItem.html ----------------------------------- */
+
+
+.addCard{
+    margin: auto;
+    height:32%;
+    width:90%;
+    border:1px solid rgb(242, 69, 69);
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    transform: translate(-50%, 0);
+    z-index:200;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgb(216, 215, 215);
+    padding-bottom: 10px;
+}
+
+#addtext{
+    width:240px;
+    border:1px solid rgb(242, 69, 69);
+    border-radius: 5px;
+    height:40px;
+    box-shadow: 3px 3px 5px rgb(216, 215, 215);
+    position: relative;
+    bottom:5px;
+}
+
+.add_head{
+    font-size: 23px;
+    color:rgb(242, 69, 69);
+}
+
+.add_btn{
+    border:none;
+    background-color: rgb(242, 69, 69);
+    color:white;
+    height:40px;
+    width:100px;
+    border-radius: 25px;
+    font-size: 22px;
+    position: relative;
+    bottom:25px;
+}
+
+/* -------------------------------- back.html ------------------------------------- */
+
+
+h1 {
+    text-align: left;
+    position: relative;
+    top:20px;
+    right:30px;
+    float:right;
+    width:80%;
+    font-size: 35px;
+}
+
+h1:before,h1:after {
+
+    visibility: collapse;
+}
+
+.top_back{
+    height:40px;
+    float:left;
+    width:10%;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight:lighter;
+    color: rgb(113, 113, 113);
+}
+
+.center_card{
+    height:400px;
+    width:250px;
+    border:1px solid rgb(238, 79, 79);
+    border-radius: 10px;
+    text-align: center;
+    position:relative;
+    top:90px;
+    margin:auto;
+    padding:30px;
+    box-shadow: 8px 8px 7px rgb(216, 215, 215);
+}
+
+.back_btn{
+    height:42px;
+    width:42px;
+    border-radius: 50%;
+    position:relative;
+    bottom:9px;
+    font-size: 17px;
+    color:white;
+    background-color: rgb(244, 80, 80);
+    border :none;
+}
+.back_btn:hover{
+    color:white;
+    background-color: rgb(244, 80, 80);
+}
+
+hr.hr1_style{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0));
+}
+
+.cardText2{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    font-size: 25px;
+    position:relative;
+    top:40px;
+    color:rgb(244, 55, 55);
+}
+
+.form3{
+    font-size:22px;
+    position: relative;
+    top:60px;
+}
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+}
+
+.btn_2{
+    height:39px;
+    width:39px;
+    border-radius: 50%;
+    position:relative;                 
+    left:90px;                  
+    top:120px;
+    font-size: 17px;
+    color:white;
+    background-color: rgb(244, 80, 80);
+    border :none;
+}
+
+.center_card_h2{
+    font-weight: 400;
+}
+
+ /*-------------- /////\\\\\\\\\///////\\\\\\//////\\\\\\///////\\\\\ ------------*/ 
+
+}
+
+/*---------------------------------------------------------------------------------*/ 
