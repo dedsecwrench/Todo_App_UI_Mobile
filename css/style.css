@@ -224,6 +224,20 @@ h1:before,h1:after {
     background-color: rgb(242, 69, 69);
 }
 
+.cardText2{
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    font-size: 25px;
+    position:relative;
+    top:40px;
+    color:rgb(244, 55, 55);
+}
+
+.form3{
+    font-size:22px;
+    position: relative;
+    top:60px;
+}
 
 /* ------------------------ MOBILE RESPONSIVE -------------------------------- */
 /* --------------------------------------------------------------------------- */
