@@ -1,14 +1,16 @@
 # Todo_App_UI_Mobile
 
-MObile Responsive design of Todo App.
+Mobile Responsive design of Todo App.
 
 Dimension : Responsive => 335 x 800
 
 @media :
-min-width => 300
+
+min-width => 300 
+
 max-width => 800
 
-devices which are compatible to Mobile responsive Todo App : -
+Devices which are compatible to Mobile Responsive Todo App : -
 
 - Moto G4
 - Galaxy S5
@@ -19,4 +21,4 @@ devices which are compatible to Mobile responsive Todo App : -
 - I pad
 - Surface Duo
 
-etc....
+etc...
